@@ -3,3 +3,4 @@
 *.vtk
 vtkread.ipynb
 /.ipynb_checkpoints
+/__pycache__

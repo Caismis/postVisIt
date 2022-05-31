@@ -1,0 +1,5 @@
+/slfm
+/fpv_1
+*.vtk
+vtkread.ipynb
+/.ipynb_checkpoints

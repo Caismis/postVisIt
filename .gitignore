@@ -5,3 +5,4 @@ vtkread.ipynb
 /.ipynb_checkpoints
 /__pycache__
 *vtk*
+/figs

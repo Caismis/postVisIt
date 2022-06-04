@@ -28,7 +28,7 @@ def allscalar(vtkarray, scalarlist):
     return np.c_[vtkarray[0], scalars].T
 
 def scatterslice(scalars, z, tol=2e-3):
-    return scalars.T[(scalars[2] < z + tol) & (scalars[2] > z - tol)].T
+    return scalars[:, (scalars[2] < z + tol) & (scalars[2] > z - tol)]
 
 def vtk_loader(path, show_scalarname=False):
     files = os.listdir(path)
